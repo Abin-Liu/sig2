@@ -1,0 +1,31 @@
+
+<h2 style="line-height: 150%" align="center">SIG II 使用帮助</h2> 
+<p style="line-height: 150%" align="center">Beta 测试版</p>
+<p style="line-height: 150%"><b>用户界面</b></p>
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp; SIG II主用户界面如下图：</p> 
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp; <img border="0" src="chs1.gif" width="754" height="277"></p> 
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp;  
+对游戏的控制方式由过去的多个SIG分别控制多个游戏改为现在的一个SIG控制多个游戏，这一改变建立了多个控制实体之间的联系，使得SIG控制计划化成为可能。</p>
+<p style="line-height: 150%"><b>线程与计划</b></p>
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp; 在SIG II中，最基本的控制单位为“线程”，每一个线程都是一个独立运行的监控实体，负责游戏的启动、登录、创建、退出等一系列基本控制。多个线程之间通过SIG主程序进行信息交换。</p> 
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp; “计划”是另一个在SIG  
+II中出现的新概念，简单来讲，线程控制游戏，而计划控制线程。每一个计划都能用来控制一组任务（线程），用户可以通过创建合理的计划来实现全自动运行，甚至轻而易举地实现某些高级功能，例如自动CDKey轮换等等。</p>
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp;  
+线程和计划分属于不同的操作界面，用户可以随时使用“视图”菜单中的“线程视图”和“计划视图”在两者之间进行切换。</p>
+<p style="line-height: 150%"><b>创建线程</b></p>
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp;  
+线程的创建和修改由“线程设置向导”来完成，点击“线程”菜单中的“新建”或“设置”都能启动“线程设置向导”，它提供了通俗易懂的操作界面和完备的输入检验功能，即便是不熟悉SIG的用户也能正确地进行线程设置。</p>
+<p style="line-height: 150%"><b>创建计划</b></p>
+<p style="line-height: 150%">&nbsp;&nbsp;&nbsp;  
+计划的创建和修改由“计划设置向导”来完成，点击“计划”菜单中的“新建”或“设置”都能启动“计划设置向导”，然后把需要的线程加入到创建的计划中，并为其中各个线程设置合理的启动和终止条件。</p>
+<p style="line-height: 150%"><b>技巧与提示</b></p>
+<ul>
+  <li>
+    <p style="line-height: 150%">多CDKey轮换：如果你有n个可用的CDKey，你可以先创建n个相应的线程，在“线程设置向导”中通过不同的Diablo  
+    II游戏命令行参数中的&quot;-MPQ&quot;参数使得这n个线程使用不同的CDKey。然后创建一个计划并把刚才的n个线程通过“计划设置向导”加入到这个计划中作为n个任务，把每一个任务的“启动条件”都设为“前一个任务终止后0秒”，而“终止条件”都设为“本任务创建游戏数达到15个”。这样SIG会使用一个CDKey来创建15次游戏后切换到下一个CDKey。<br>
+  <img border="0" src="chs2.gif">
+  </li>
+  <li>
+    <p style="line-height: 150%">单CDKey防BAN：如果你只有一个可用的CDKey，你可以通过强制每两个游戏之间的时间间隔来达到防止被BAN的目的。当一个游戏因任何原因而结束，SIG在创建下一个游戏前会进行检查，如果时间未到，角色会在聊天时里等待。<br>
+    <img border="0" src="chs3.gif" width="441" height="429"></li>
+</ul>

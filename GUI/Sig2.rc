@@ -1,0 +1,1234 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_HEADS               BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_ITEM                BITMAP  DISCARDABLE     "res\\item.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_THREADBAL_ENG       BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_THREADBAL_CHS       BITMAP  MOVEABLE PURE   "res\\toolbal_chs.bmp"
+IDR_SCHBAL_CHS          BITMAP  MOVEABLE PURE   "res\\schbal_c.bmp"
+IDR_SCHBAL_ENG          BITMAP  MOVEABLE PURE   "res\\schbal_e.bmp"
+IDR_TOOLBAR1            BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Sig2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_THREADBAL_ENG TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_VIEW_THREADS
+    BUTTON      ID_VIEW_SCHEDULES
+    SEPARATOR
+    BUTTON      ID_NEW
+    BUTTON      ID_DELETE
+    BUTTON      ID_CONFIG
+    SEPARATOR
+    BUTTON      ID_START
+    BUTTON      ID_PAUSE
+    BUTTON      ID_STOP
+    SEPARATOR
+    BUTTON      ID_LEAVEGAME
+    BUTTON      ID_KILL
+    SEPARATOR
+    BUTTON      ID_VIEWLOG
+    SEPARATOR
+    BUTTON      ID_SHOWD2WND
+    BUTTON      ID_HIDEWND
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_THREADBAL_CHS TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_VIEW_THREADS1
+    BUTTON      ID_VIEW_SCHEDULES1
+    SEPARATOR
+    BUTTON      ID_NEW1
+    BUTTON      ID_DELETE1
+    BUTTON      ID_CONFIG1
+    SEPARATOR
+    BUTTON      ID_START1
+    BUTTON      ID_PAUSE1
+    BUTTON      ID_STOP1
+    SEPARATOR
+    BUTTON      ID_LEAVEGAME1
+    BUTTON      ID_KILL1
+    SEPARATOR
+    BUTTON      ID_VIEWLOG1
+    SEPARATOR
+    BUTTON      ID_SHOWD2WND1
+    BUTTON      ID_HIDEWND1
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT1
+END
+
+IDR_SCHBAL_CHS TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_VIEW_THREADS1
+    BUTTON      ID_VIEW_SCHEDULES1
+    SEPARATOR
+    BUTTON      ID_SCH_NEW1
+    BUTTON      ID_SCH_DELETE1
+    BUTTON      ID_SCH_CONFIG1
+    SEPARATOR
+    BUTTON      ID_SCH_START1
+    BUTTON      ID_SCH_STOP1
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT1
+END
+
+IDR_SCHBAL_ENG TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_VIEW_THREADS
+    BUTTON      ID_VIEW_SCHEDULES
+    SEPARATOR
+    BUTTON      ID_SCH_NEW
+    BUTTON      ID_SCH_DELETE
+    BUTTON      ID_SCH_CONFIG
+    SEPARATOR
+    BUTTON      ID_SCH_START
+    BUTTON      ID_SCH_STOP
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TOOLBAR1 TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_LANG_CHS
+    BUTTON      ID_LANG_ENG
+    BUTTON      ID_HELP_CONTENT
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_POPUP_HIDESIG
+    BUTTON      ID_POPUP_SHOWSIG
+    BUTTON      ID_APP_EXIT
+    BUTTON      ID_SEL_CUSTLOG
+    BUTTON      ID_SEL_CUSTLOG1
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_ENG MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Language"
+    BEGIN
+        MENUITEM "&English",                    ID_LANG_ENG
+        MENUITEM "Simplified &Chinese",         ID_LANG_CHS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "T&hread View",                ID_VIEW_THREADS
+        MENUITEM "S&chedule View",              ID_VIEW_SCHEDULES
+        MENUITEM SEPARATOR
+        MENUITEM "&Show D2 Windows",            ID_SHOWD2WND
+        MENUITEM "&Hide D2 Windows",            ID_HIDEWND
+        MENUITEM SEPARATOR
+        MENUITEM "&Tool Bar",                   ID_VIEW_TOOLBAR1
+        , CHECKED, GRAYED
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Threads"
+    BEGIN
+        MENUITEM "&New...",                     ID_NEW
+        MENUITEM "&Delete",                     ID_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Configure...",               ID_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "&Start",                      ID_START
+        MENUITEM "&Pause",                      ID_PAUSE
+        MENUITEM "St&op",                       ID_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Leave Game",                 ID_LEAVEGAME
+        MENUITEM "&Kill D2 Process",            ID_KILL
+        MENUITEM SEPARATOR
+        MENUITEM "Thre&ad Log",                 ID_THREAD_LOG
+        MENUITEM "Th&read Statistics",          ID_THREAD_STATISTICS
+        MENUITEM SEPARATOR
+        MENUITEM "Custom &Log",                 ID_VIEWLOG
+    END
+    POPUP "&Schedules"
+    BEGIN
+        MENUITEM "&New...",                     ID_SCH_NEW
+        MENUITEM "&Delete",                     ID_SCH_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Configure...",               ID_SCH_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "Start",                       ID_SCH_START
+        MENUITEM "S&top",                       ID_SCH_STOP
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Global Settings...",         ID_GLOBAL
+        MENUITEM "&Custom Dictionary...",       ID_OPT_DICTIONARY
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Help &Contents",              ID_HELP_CONTENT
+        MENUITEM SEPARATOR
+        MENUITEM "&About...",                   ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_CHS MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "语言(&L)"
+    BEGIN
+        MENUITEM "英语(&E)",                    ID_LANG_ENG
+        MENUITEM "简体中文(&C)",                ID_LANG_CHS
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "线程视图(&R)",                ID_VIEW_THREADS1
+        MENUITEM "计划视图(&C)",                ID_VIEW_SCHEDULES1
+        MENUITEM SEPARATOR
+        MENUITEM "显示D2窗体(&S)",              ID_SHOWD2WND1
+        MENUITEM "隐藏D2窗体(&H)",              ID_HIDEWND1
+        MENUITEM SEPARATOR
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR1
+        , CHECKED, GRAYED
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "线程(&T)"
+    BEGIN
+        MENUITEM "新建(&N)...",                 ID_NEW1
+        MENUITEM "删除(&D)",                    ID_DELETE1
+        MENUITEM SEPARATOR
+        MENUITEM "设置(&C)",                    ID_CONFIG1
+        MENUITEM SEPARATOR
+        MENUITEM "开始(&S)",                    ID_START1
+        MENUITEM "暂停(&P)",                    ID_PAUSE1
+        MENUITEM "停止(&O)",                    ID_STOP1
+        MENUITEM SEPARATOR
+        MENUITEM "退出游戏(&L)",                ID_LEAVEGAME1
+        MENUITEM "杀死D2进程(&K)",              ID_KILL1
+        MENUITEM SEPARATOR
+        MENUITEM "线程Log(&A)",                 ID_THREAD_LOG1
+        MENUITEM "线程统计(&R)",                ID_THREAD_STATISTICS1
+        MENUITEM SEPARATOR
+        MENUITEM "自定义Log(&L)",               ID_VIEWLOG1
+    END
+    POPUP "计划(&S)"
+    BEGIN
+        MENUITEM "新建(&N)...",                 ID_SCH_NEW1
+        MENUITEM "删除(&D)",                    ID_SCH_DELETE1
+        MENUITEM SEPARATOR
+        MENUITEM "设置(&C)",                    ID_SCH_CONFIG1
+        MENUITEM SEPARATOR
+        MENUITEM "开始(&S)",                    ID_SCH_START1
+        MENUITEM "停止(&O)",                    ID_SCH_STOP1
+    END
+    POPUP "选项(&O)"
+    BEGIN
+        MENUITEM "全局设置(&G)...",             ID_GLOBAL1
+        MENUITEM "自定义词典(&C)...",           ID_OPT_DICTIONARY1
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "帮助主题(&C)",                ID_HELP_CONTENT
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)...",                 ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_CHS MENU DISCARDABLE 
+BEGIN
+    POPUP "弹出菜单"
+    BEGIN
+        MENUITEM "恢复(&R)",                    ID_POPUP_SHOWSIG
+        MENUITEM "隐藏(&H)",                    ID_POPUP_HIDESIG
+        MENUITEM SEPARATOR
+        POPUP "选项(&O)"
+        BEGIN
+            MENUITEM "操作延时(&D)...",             ID_GLOBAL1
+            MENUITEM "自定义词典(&C)...",           ID_OPT_DICTIONARY1
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "帮助主题(&H)",                ID_HELP_CONTENT
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)...",                 ID_APP_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "自定义Log"
+    BEGIN
+        MENUITEM "log1",                        ID_CUS_LOG11
+        MENUITEM "log2",                        ID_CUS_LOG21
+        MENUITEM "log3",                        ID_CUS_LOG31
+        MENUITEM "log4",                        ID_CUS_LOG41
+        MENUITEM SEPARATOR
+        MENUITEM "另选(&S)...",                 ID_SEL_CUSTLOG1
+    END
+END
+
+IDR_POPUP_ENG MENU DISCARDABLE 
+BEGIN
+    POPUP "popup menu"
+    BEGIN
+        MENUITEM "&Restore",                    ID_POPUP_SHOWSIG
+        MENUITEM "&Hide",                       ID_POPUP_HIDESIG
+        MENUITEM SEPARATOR
+        POPUP "&Options"
+        BEGIN
+            MENUITEM "&Delays...",                  ID_GLOBAL
+            MENUITEM "&Custom Dictionary...",       ID_OPT_DICTIONARY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Help Contents",              ID_HELP_CONTENT
+        MENUITEM SEPARATOR
+        MENUITEM "&About...",                   ID_APP_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Cutom Logs"
+    BEGIN
+        MENUITEM "log1",                        ID_CUS_LOG1
+        MENUITEM "log2",                        ID_CUS_LOG2
+        MENUITEM "log3",                        ID_CUS_LOG3
+        MENUITEM "log4",                        ID_CUS_LOG4
+        MENUITEM SEPARATOR
+        MENUITEM "&Select...",                  ID_SEL_CUSTLOG
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SIG"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,13,20,20
+    LTEXT           "Sig2 1.0 版",IDC_VER,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (c) 2005, Abin",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_GLOBAL DIALOGEX 0, 0, 230, 217
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Global Settings"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "System",IDC_LBL_GAMES,7,7,216,29
+    CONTROL         "Maximum Diablo II processes:",IDC_LBL_MAXD2,"Static",
+                    SS_SIMPLE | WS_GROUP,16,21,127,8
+    EDITTEXT        IDC_MAXD2PROC,145,18,35,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,181,17,10,14
+    GROUPBOX        "Operation Delays (Seconds)",IDC_LBL_DELAYS,7,43,216,148
+    CONTROL         "Launching Diablo II:",IDC_LBL_LAUNCH,"Static",SS_SIMPLE | 
+                    WS_GROUP,16,56,127,8
+    EDITTEXT        IDC_LAUNCHDELAY,145,53,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Connecting to Battle.net:",IDC_LBL_CONNECT,"Static",
+                    SS_SIMPLE | WS_GROUP,16,73,127,8
+    EDITTEXT        IDC_MINCONN,145,70,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Battle.net login:",IDC_LBL_LOGIN,"Static",SS_SIMPLE | 
+                    WS_GROUP,16,90,127,8
+    EDITTEXT        IDC_LOGINDELAY,145,87,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Player selection:",IDC_LBL_CHARSEL,"Static",SS_SIMPLE | 
+                    WS_GROUP,16,107,127,8
+    EDITTEXT        IDC_CHARSELDELAY,145,104,49,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Creating random delay:",IDC_LBL_RND,"Static",SS_SIMPLE | 
+                    WS_GROUP,15,124,127,8
+    EDITTEXT        IDC_RND1,145,121,31,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_RND2,186,121,31,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "-",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,179,124,8,8,
+                    WS_EX_TRANSPARENT
+    CONTROL         "[Create] button delay:",IDC_LBL_BTN,"Static",SS_SIMPLE | 
+                    WS_GROUP,15,141,127,8
+    EDITTEXT        IDC_BTNDELAY,145,138,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Creating a game:",IDC_LBL_CREATE,"Static",SS_SIMPLE | 
+                    WS_GROUP,15,158,127,8
+    EDITTEXT        IDC_JOINDELAY,145,155,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Closing Diablo II:",IDC_LBL_CLOSE,"Static",SS_SIMPLE | 
+                    WS_GROUP,15,175,127,8
+    EDITTEXT        IDC_ERRORDELAY,145,172,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "&OK",IDOK,43,196,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,93,196,50,14
+    PUSHBUTTON      "Restore &Default",IDC_DEFAULT,153,196,70,14
+END
+
+IDD_PAGE_NAME DIALOGEX 0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "SIG thread name:",IDC_LBL_NAME,7,7,110,8
+    EDITTEXT        IDC_EDIT1,7,20,236,14,ES_AUTOHSCROLL
+    LTEXT           "A SIG thread is a game controlling instance that will be running inside the SIG application's virtual space. You may use any meaningful text to name your thread.",
+                    IDC_LBL_TEXT1,7,46,252,52,0,WS_EX_TRANSPARENT
+END
+
+IDD_PAGE_D2EXE DIALOGEX 0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "Diablo II program file:",IDC_LBL_D2EXE,7,7,93,8
+    PUSHBUTTON      "Button1",IDC_BUTTON1,7,20,236,14
+    LTEXT           "Game parameter line:",IDC_LBL_PARAM,7,41,81,8
+    EDITTEXT        IDC_EDIT1,7,53,236,14,ES_AUTOHSCROLL
+    LTEXT           "Do not specify ""-w"", ""-skiptobnet"", ""-nonotify"", as those parameters will be automatically added.",
+                    IDC_LBL_TEXT,7,73,252,39,0,WS_EX_TRANSPARENT
+END
+
+IDD_PAGE_GAME DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Join channel:",IDC_LBL_CHANNEL,7,10,74,8
+    EDITTEXT        IDC_CHANNEL,84,7,175,14,ES_AUTOHSCROLL
+    GROUPBOX        "Game Names",IDC_FRA_NAME,7,24,252,65
+    CONTROL         "Random.",IDC_NAMETYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,15,38,72,9
+    CONTROL         "Fixed prefix:",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,
+                    15,50,87,9
+    CONTROL         "Use ustom dictionary (Random picking).",IDC_RADIO6,
+                    "Button",BS_AUTORADIOBUTTON,15,62,190,11
+    CONTROL         "Use ustom dictionary (Iterating).",IDC_RADIO8,"Button",
+                    BS_AUTORADIOBUTTON,15,74,190,11
+    EDITTEXT        IDC_PREFIX,106,47,138,14,ES_AUTOHSCROLL
+    GROUPBOX        "Game Passwords",IDC_FRA_PWD,7,93,252,30
+    CONTROL         "Random.",IDC_USEFIXPWD,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,15,107,46,10
+    CONTROL         "Fixed:",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,65,107,
+                    60,10
+    EDITTEXT        IDC_FIXEDPWD,129,105,115,14,ES_AUTOHSCROLL
+    GROUPBOX        "Game Difficulties",IDC_LBL_DIFFICULTY,7,128,252,28
+    CONTROL         "N/A",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    15,141,46,10
+    CONTROL         "Normal",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,65,141,
+                    60,10
+    CONTROL         "Nightmare",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,127,
+                    141,69,10
+    CONTROL         "Hell",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,201,141,52,
+                    10
+    LTEXT           "Maximum Game Length (seconds):",IDC_LBL_MAXSTAY,7,164,
+                    121,8
+    EDITTEXT        IDC_MAXINGAME,134,161,39,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "(0 = No limit)",IDC_LBL_LIMIT,"Static",SS_SIMPLE | 
+                    WS_GROUP,176,164,81,8
+END
+
+IDD_PAGE_HACK DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "Plugins",IDC_FRA_PLUGIN,7,7,252,56
+    CONTROL         "None.",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,13,20,72,10
+    CONTROL         "Load D2Hackit.",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    13,34,72,10
+    CONTROL         "Load D2JSP.",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,13,
+                    48,72,10
+    PUSHBUTTON      "Hackit Path",IDC_HACKITPATH,87,32,133,14
+    LTEXT           "Home",IDC_HACKITURL,228,35,24,8
+    PUSHBUTTON      "D2JSP Path",IDC_JSPPATH,87,46,133,14
+    LTEXT           "Home",IDC_JSPURL,228,49,24,8
+    GROUPBOX        "Games",IDC_FRA_GAMES,7,67,252,43
+    CONTROL         "Perform ""anti-idle"" if the player appears to be idle.",
+                    IDC_ANTIIDLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,81,
+                    237,10
+    CONTROL         "Minimum time between two games (seconds):",IDC_MINTIME,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,95,180,10
+    EDITTEXT        IDC_MIN2GAMES,205,93,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "When CDKey Banned",IDC_FRA_BAN,7,117,252,58
+    CONTROL         "Stop thread.",IDC_STOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,13,131,97,10
+    CONTROL         "Retry in (seconds):",IDC_RETRY,"Button",
+                    BS_AUTORADIOBUTTON,13,145,103,10
+    CONTROL         "Switch to thread:",IDC_SWITCH,"Button",
+                    BS_AUTORADIOBUTTON,13,159,104,10
+    EDITTEXT        IDC_BANRETRY,120,143,59,14,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_COMBO1,120,158,133,140,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PAGE_D2H DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Static",IDC_LBL_PATH,7,7,236,8
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,21,252,147
+END
+
+IDD_PAGE_JSP DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Static",IDC_LBL_PATH,7,25,236,8
+    CONTROL         "Allow SIG to modify the ""Default.d2j"" script.",
+                    IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,252,
+                    10
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,37,252,131
+END
+
+IDD_PAGE_FINISH DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Congradulations!\n\nYou have finished configurating the SIG data. Please click ""Finish"" to apply any changes you've made.",
+                    IDC_TEXT,7,7,252,87
+END
+
+IDD_PAGE_LOGIN DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_REALMS,7,7,130,214,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Edit",IDC_REALMEDIT,140,7,51,13
+    EDITTEXT        IDC_BNETIP,7,23,130,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_PREFERRED,140,23,103,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Account Name:",IDC_LBL_ACCOUNT,7,43,84,8
+    EDITTEXT        IDC_ACCOUNT,98,41,118,14,ES_AUTOHSCROLL
+    LTEXT           "Password:",IDC_LBL_PWD,7,59,84,8
+    EDITTEXT        IDC_PASSWORD,98,57,118,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Repeat Password:",IDC_LBL_PWD2,7,75,84,8
+    EDITTEXT        IDC_REPEATPASSWORD,98,73,118,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    GROUPBOX        "Player Position",IDC_LBL_CHARPOS,7,90,236,85
+    CONTROL         "Player 1",IDC_P1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,37,104,71,16
+    CONTROL         "Player 2",IDC_P2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,141,104,71,16
+    CONTROL         "Player 3",IDC_P3,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,37,120,71,16
+    CONTROL         "Player 4",IDC_P4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,141,120,71,16
+    CONTROL         "Player 5",IDC_P5,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,37,136,71,16
+    CONTROL         "Player 6",IDC_P6,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,141,136,71,16
+    CONTROL         "Player 7",IDC_P7,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,37,152,71,16
+    CONTROL         "Player 8",IDC_P8,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,141,152,71,16
+END
+
+IDD_PAGE_MULE DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Mule Mode Account List:",IDC_LBL_LIST,7,7,93,8
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,17,236,108
+    PUSHBUTTON      "Add",IDC_ADD,16,132,43,14
+    PUSHBUTTON      "Edit",IDC_EDIT,60,132,43,14,WS_DISABLED
+    PUSHBUTTON      "Remove",IDC_REMOVE,104,132,43,14,WS_DISABLED
+    PUSHBUTTON      "Up",IDC_MOVEUP,148,132,43,14,WS_DISABLED
+    PUSHBUTTON      "Down",IDC_MOVEDOWN,192,132,43,14,WS_DISABLED
+    LTEXT           "Game Length (seconds):",IDC_LBL_GAMELEN,7,155,107,8
+    EDITTEXT        IDC_MULECHARSTAYLENGTH,121,152,44,14,ES_AUTOHSCROLL
+END
+
+IDD_ACCOUNTDLG DIALOGEX 0, 0, 230, 205
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Login Information"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Realm",IDC_FRA_REALM,7,7,216,53
+    COMBOBOX        IDC_REALMS,17,23,112,214,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Edit",IDC_REALMEDIT,132,23,41,13
+    EDITTEXT        IDC_BNETIP,17,41,112,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_PREFERRED,132,41,82,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Account",IDC_FRA_ACCOUNT,7,67,216,66
+    LTEXT           "Account:",IDC_LBL_ACCOUNT,17,81,75,8
+    EDITTEXT        IDC_ACCOUNT,96,77,118,14,ES_AUTOHSCROLL
+    LTEXT           "Password:",IDC_LBL_PWD,17,99,75,8
+    EDITTEXT        IDC_PASSWORD,96,95,118,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Repeat Password:",IDC_LBL_PWD2,17,117,75,8
+    EDITTEXT        IDC_REPEATPASSWORD,96,113,118,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    GROUPBOX        "Players",IDC_FRA_CHAR,7,142,216,35
+    LTEXT           "Number of players to login:",IDC_LBL_PLAYS,17,157,109,8
+    COMBOBOX        IDC_CHARCOUNT,160,155,54,83,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,65,184,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,184,50,14
+END
+
+IDD_PAGE_SCHNAME DIALOGEX 0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SIG schedule name:",IDC_LBL_NAME,7,7,73,8
+    EDITTEXT        IDC_EDIT1,7,20,236,14,ES_AUTOHSCROLL
+    LTEXT           "A SIG schedule is a scheduled task which runs and maintains a sequence of SIG threads.\n\nYou may use any meaningful text to name your schedule.",
+                    IDC_LBL_TEXT,7,46,252,46,0,WS_EX_TRANSPARENT
+END
+
+IDD_PAGE_SCHDATA DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,7,252,140
+    PUSHBUTTON      "Add",IDC_ADD,19,154,43,14
+    PUSHBUTTON      "Edit",IDC_EDIT,63,154,43,14,WS_DISABLED
+    PUSHBUTTON      "Remove",IDC_REMOVE,107,154,43,14,WS_DISABLED
+    PUSHBUTTON      "Up",IDC_MOVEUP,151,154,43,14,WS_DISABLED
+    PUSHBUTTON      "Down",IDC_MOVEDOWN,195,154,43,14,WS_DISABLED
+END
+
+IDD_SCHDLG DIALOGEX 0, 0, 236, 189
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Schedule Task Data"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "Thread:",IDC_LBL_THREAD,7,9,37,8
+    COMBOBOX        IDC_COMBO1,54,7,175,160,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Start Conditions",IDC_LBL_START,7,28,222,62
+    CONTROL         "Immediately",IDC_STARTCOND1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,13,41,153,10
+    CONTROL         "After previous task starts (seconds):",IDC_STARTCOND2,
+                    "Button",BS_AUTORADIOBUTTON,13,57,164,10
+    CONTROL         "After previous task stops (seconds):",IDC_STARTCOND3,
+                    "Button",BS_AUTORADIOBUTTON,13,73,160,10
+    EDITTEXT        IDC_STARTPARA1,181,55,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_STARTPARA2,181,71,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Stop Conditions",IDC_LBL_STOP,7,98,222,63
+    CONTROL         "Never",IDC_STOPCOND1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,13,113,36,10
+    CONTROL         "After starts (seconds):",IDC_STOPCOND2,"Button",
+                    BS_AUTORADIOBUTTON,13,129,108,10
+    CONTROL         "When game counter reaches:",IDC_STOPCOND3,"Button",
+                    BS_AUTORADIOBUTTON,13,145,120,10
+    EDITTEXT        IDC_STOPPARA1,181,127,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_STOPPARA2,181,143,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,67,168,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,117,168,50,14
+END
+
+IDD_DLGDLG DIALOGEX 0, 0, 230, 203
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Edit Dictionary"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "One name for each line. It is recommended that you provide at least 10 distinct lines of text:",
+                    IDC_LBL_EDIT,7,7,216,21
+    EDITTEXT        IDC_EDIT1,7,32,216,143,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,65,182,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,182,50,14
+END
+
+IDD_STATSDLG DIALOG DISCARDABLE  0, 0, 227, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Thread Statistics -"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "Application",IDC_FRA_APPLICATION,7,7,213,92
+    LTEXT           "Since:",IDC_LBL_SINCE,17,21,71,8
+    LTEXT           "As of:",IDC_LBL_ASOF,17,36,71,8
+    LTEXT           "<>",IDC_SINCE,91,21,123,8
+    LTEXT           "<>",IDC_ASOF,91,36,123,8
+    LTEXT           "Running Time:",IDC_LBL_TOTALRUN,17,51,71,8
+    LTEXT           "<>",IDC_RUNNING,91,51,123,8
+    GROUPBOX        "Games",IDC_FRA_GAME,7,109,213,108
+    LTEXT           "Client Crashes:",IDC_LBL_CRASHES,17,81,71,8
+    LTEXT           "<>",IDC_CRASHES,91,81,123,8
+    LTEXT           "Success:",IDC_LBL_GAMEOKS,17,139,71,8
+    LTEXT           "Creation:",IDC_LBL_GAMES,17,124,71,8
+    LTEXT           "<>",IDC_SUCCESS,91,139,123,8
+    LTEXT           "<>",IDC_CREATION,91,124,123,8
+    LTEXT           "Maximum Length:",IDC_LBL_MAXGAME,17,169,71,8
+    LTEXT           "Minimum Length:",IDC_LBL_MINGAME,17,184,71,8
+    LTEXT           "<>",IDC_MAX,91,169,123,8
+    LTEXT           "<>",IDC_MIN,91,184,123,8
+    LTEXT           "Average Length:",IDC_LBL_AVERAGEGAME,17,199,71,8
+    LTEXT           "<>",IDC_AVG,91,199,123,8
+    LTEXT           "In-Game Time:",IDC_LBL_INGAME,17,66,71,8
+    LTEXT           "<>",IDC_INGAME,91,66,123,8
+    LTEXT           "Current Length:",IDC_LBL_CURGAME,17,154,71,8
+    LTEXT           "<>",IDC_CUR,91,154,123,8
+END
+
+IDD_PAGE_THREADTYPE DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Create a conventional thread.",IDC_NORMAL,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,7,7,252,10
+    CONTROL         "Create a ""Mule-Mode"" thread.",IDC_MULE,"Button",
+                    BS_AUTORADIOBUTTON,7,20,252,10
+    CONTROL         "Use an existing thread as template.",IDC_COPY,"Button",
+                    BS_AUTORADIOBUTTON,7,33,252,10
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,7,50,252,118
+END
+
+IDD_REALMDLG DIALOGEX 0, 0, 257, 191
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Realm Editor"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,7,243,155
+    PUSHBUTTON      "Add",IDC_ADD,7,170,42,14
+    PUSHBUTTON      "Edit",IDC_EDIT,50,170,42,14,WS_DISABLED
+    PUSHBUTTON      "Delete",IDC_DELETE,92,170,42,14,WS_DISABLED
+    DEFPUSHBUTTON   "OK",IDOK,165,170,42,14
+    PUSHBUTTON      "Cancel",IDCANCEL,208,170,42,14
+END
+
+IDD_REALMEDITDLG DIALOGEX 0, 0, 202, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Realm Information"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "Display Name:",IDC_LBL_NAME,7,10,61,8
+    EDITTEXT        IDC_NAME,72,7,123,14,ES_AUTOHSCROLL
+    LTEXT           "Server:",IDC_LBL_SERVER,7,27,61,8
+    EDITTEXT        IDC_SERVER,72,24,123,14,ES_AUTOHSCROLL
+    LTEXT           "Sub-Realm:",IDC_LBL_SUB,7,44,61,8
+    EDITTEXT        IDC_SUB,72,41,123,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,52,60,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,102,60,50,14
+END
+
+IDD_PAGE_SCHREPEAT DIALOG DISCARDABLE  0, 0, 266, 175
+STYLE WS_CHILD | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "Schedule Repeat",IDC_FRA_REPEAT,7,7,252,53
+    CONTROL         "Only run once.",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,16,23,164,10
+    CONTROL         "Repeat (times):",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    16,40,78,10
+    EDITTEXT        IDC_RPT,97,38,40,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,3,1
+ PRODUCTVERSION 4,0,3,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "SIG Diablo II Control Application\0"
+            VALUE "CompanyName", "Abin (http://www.wxjindu.com/abin)\0"
+            VALUE "FileDescription", "Sig\0"
+            VALUE "FileVersion", "4, 0, 3, 1\0"
+            VALUE "InternalName", "Sig\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005 Abin (abinn32@yahoo.com)\0"
+            VALUE "LegalTrademarks", "Abin\0"
+            VALUE "OriginalFilename", "Sig.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Sig2\0"
+            VALUE "ProductVersion", "4, 0, 3, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_GLOBAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_PAGE_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_D2EXE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_GAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_HACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_D2H, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_JSP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_FINISH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_MULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_ACCOUNTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_PAGE_SCHNAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PAGE_SCHDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_SCHDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_DLGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_STATSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_PAGE_THREADTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_REALMDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_REALMEDITDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_PAGE_SCHREPEAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Sig2.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\icon2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ACCOUNTDLG DLGINIT
+BEGIN
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0031, 
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0032, 
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0033, 
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0034, 
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0035, 
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0036, 
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0037, 
+    IDC_CHARCOUNT, 0x403, 2, 0
+0x0038, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "SIG II"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Sig II"
+    AFX_IDS_IDLEMESSAGE     "Press F1 for Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version and copyright\nAbout"
+    ID_APP_EXIT             "Exit SIG\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide tool bar"
+    ID_VIEW_STATUS_BAR      "Show or hide status bar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_START                "Start thread control\nStart Thread"
+    ID_PAUSE                "Pause thread control\nPause Thread"
+    ID_STOP                 "Stop thread control\nStop Thread"
+    ID_KILL                 "Stop thread and kill Diablo II game process\nKill D2 Process"
+    ID_MULEMODE             "Run SIG in ""mule mode""\nMule Mode"
+    ID_SHOWD2WND            "Show Diablo II game windows\nShow D2 Windows"
+    ID_VIEWLOG              "View custom log file\nCustom Log"
+    ID_LOG_CURRENT          "Currently selected log file\nCurrent Log"
+    ID_LOG_SELECT           "Select a new log file\nSelect"
+    ID_NEW                  "Create a new thread\nNew Thread"
+    ID_DELETE               "Delete selected thread(s)\nDelete Thread"
+    ID_CONFIG               "Change thread configuuration\nEdit Thread"
+    ID_GLOBAL               "Global settings\nGlobal Settings"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_THREADS         "Switch to thread view\nThread View"
+    ID_LANG_CHS             "Simplified Chinese"
+    ID_LANG_ENG             "English"
+    ID_VIEW_THREADS1        "切换到线程列表\n线程列表"
+    ID_VIEW_SCHEDULES1      "切换到计划列表\n计划列表"
+    ID_NEW1                 "创建新线程\n新建线程"
+    ID_DELETE1              "删除选定的线程\n删除线程"
+    ID_CONFIG1              "改变线程运行设置\n设置线程"
+    ID_START1               "开始线程运行\n开始线程"
+    ID_PAUSE1               "暂停线程运行\n暂停线程"
+    ID_STOP1                "终止线程运行\n终止线程"
+    ID_SHOWD2WND1           "显示Diablo II游戏窗体\n显示D2窗体"
+    ID_KILL1                "终止线程并杀死Diablo II游戏进程\n杀死D2进程"
+    ID_SCH_NEW1             "创建新计划\n新建计划"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SCH_DELETE           "Delete a SIG schedule\nDelete Schedule"
+    ID_SCH_NEW              "Create a new SIG schedule\nNew Schedule"
+    ID_SCH_CONFIG1          "更改计划设置\n编辑计划"
+    ID_VIEW_SCHEDULES       "Switch to schedule view\nSchedule View"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SCH_DELETE1          "删除选定的计划\n删除计划"
+    ID_SCH_CONFIG           "Change schedule settings\nEdit Schedule"
+    ID_SCH_START            "Start schedule\nStart Schedule"
+    ID_SCH_PAUSE            "Pause schedule\nPause Schedule"
+    ID_SCH_STOP             "Stop schedule\nStop Schedule"
+    ID_SCH_START1           "开始计划运行\n开始计划"
+    ID_SCH_PAUSE1           "暂停计划运行\n暂停计划"
+    ID_SCH_STOP1            "终止计划运行\n终止计划"
+    ID_VIEWLOG1             "查看自定义Log文件\n自定义Log"
+    ID_GLOBAL1              "全局设置\n全局设置"
+    ID_APP_ABOUT1           "显示程序信息，版本号和版权\n关于"
+    ID_HELP_CONTENT         "Help information"
+    ID_SEL_LOG              "Select a custom log file"
+    ID_VIEW_TOOLBAR1        "Show or hide toolbar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HIDEWND1             "隐藏所有由SIG启动的Diablo II游戏窗体\n隐藏D2窗体"
+    ID_HIDEWND              "Hide all Diablo II game windows that were created by SIG\nHide D2 Windows"
+    ID_OPT_DICTIONARY       "Edit custom dictionary\nEdit Dictionary"
+    ID_OPT_DICTIONARY1      "编辑自定义词典\n编辑词典"
+    ID_SEL_LOG1             "选择自定义Log文件路径"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_THREADS    " "
+    ID_INDICATOR_SCHEDULES  " "
+    ID_INDICATOR_ICON       " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_THREAD_LOG           "View thread log\nThread Log"
+    ID_THREAD_LOG1          "查看线程Log文件\n线程Log"
+    ID_THREAD_STATISTICS    "Display thread statistics\nThread Statistics"
+    ID_THREAD_STATISTICS1   "查看线程运行统计报告\n线程统计"
+    ID_CUS_LOG1             "Custom log 1"
+    ID_CUS_LOG2             "Custom log 2"
+    ID_CUS_LOG3             "Custom log 3"
+    ID_CUS_LOG4             "Custom log 4"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SEL_CUSTLOG          "Select another custom log"
+    ID_SEL_CUSTLOG1         "另选一个自定义Log"
+    ID_CUS_LOG11            "自定义Log 1"
+    ID_CUS_LOG41            "自定义Log 4"
+    ID_CUS_LOG21            "自定义Log 2"
+    ID_CUS_LOG31            "自定义Log 3"
+    ID_LEAVEGAME            "Make the player quit current game\nLeave Game"
+    ID_LEAVEGAME1           "使角色快速退出游戏\n退出游戏"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Sig2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
